@@ -13,7 +13,7 @@ body {
 
 .all hr {
     opacity: 0.2;
-    width: 80%;
+    width: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -30,23 +30,20 @@ body {
     margin-left: 20px;
     font-size: large;
 }
-
 .text p{
     border: 1px solid rgb(240, 238, 238, 0.4);
     border-radius: 18px;
     width: 300px;
     padding: 8px 7px;
 }
-
 .text h1 {
     scale: 1.2;
     writing-mode: horizontal-tb;
 }
-
 .text p:hover {
     border: 1px solid rgb(240, 238, 238, 0.7);
+    cursor: pointer;
 }
-
 .form {
     text-align: center;
     display: flex;
@@ -54,13 +51,10 @@ body {
     align-items: center;
     margin-top: 35px;
 }
-
 .form label {
     display: block;
-    text-align: left;
-    
+    text-align: left;    
 }
-
 .form input {
     margin-top: 18px;
     margin-bottom: 18px;
@@ -68,9 +62,9 @@ body {
     width: 300px;
     height: 37px;
     background-color: rgb(18, 18, 18);
+    color: white;
     border: 1px solid rgb(240, 238, 238, 0.4);
 }
-
 .form input[type="button"] {
     font-size: 17px;
     background-color: rgb(79, 186, 79);
@@ -79,16 +73,22 @@ body {
     border-radius: 18px;
     margin-top: 40px;
 }
-
 .form input[type="button"]:hover {
     background-color: rgb(67, 156, 67);
     cursor:pointer;
 }
-
+.form i {
+    opacity: 0.5;
+    transform: translate(130px, -48px);
+    font-size: 18px;
+}
+i:hover {
+    opacity: 1;
+    cursor: pointer;
+}
 .footer a {
     color: white;
 }
-
 .p p {
     opacity: 0.5;
     display: inline;
